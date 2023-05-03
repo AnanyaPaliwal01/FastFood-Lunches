@@ -1,0 +1,42 @@
+/* set default font family and font size for the page */
+body {
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+}
+
+/* center the h1 heading */
+h1 {
+   text-align: center;
+}
+
+/* style the table */
+table {
+   border-collapse: collapse;
+   width: 100%;
+   margin-top: 20px;
+}
+
+/* style the table header */
+th {
+   background-color: #ffe416;
+   font-weight: bold;
+   text-align: left;
+   padding: 8px;
+}
+
+/* style the table cells */
+td {
+   border: 1px solid #ed2a2a;
+   padding: 8px;
+}
+
+/* style the table rows */
+tr:nth-child(even) {
+   background-color: #ffc72c;
+}
+
+/* style the first table row (header row) */
+tr:first-child {
+   background-color: #4caf50;
+   color: rgb(255, 115, 0);
+}
